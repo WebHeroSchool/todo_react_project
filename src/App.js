@@ -25,6 +25,8 @@ function App() {
         </p>
         <p> {null}, {false}, {undefined}, {true}
         </p>
+         import { count, length } from "./number";
+          <p> And the result is {count * length} </p>
         <a
           className="App-link"
           href="https://reactjs.org"
