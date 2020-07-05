@@ -1,16 +1,12 @@
 import React from 'react';
+import ItemList from '../ItemList/ItemList';
+import Footer from '../Footer/footer';
 
-
-
-const ItemList = () => (<ul>
-    <li> One  </li>
-    <li> Two  </li>
-  </ul> 
-  );
 
 const App = () => (
   <div> <h1> ToDO List </h1> 
   <ItemList />
+  <Footer />
   </div>
 );
 
