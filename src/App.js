@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { count, length } from "./number";
 const text = 'Some new words';
-var digits = 100;
+let digits = 100;
 let moreText = 'That works!';
-let moreTextStill = 'Still Works!'
+let moreTextStill = 'Still Works!';
+
 function App() {
   return (
     <div className="App">
@@ -25,7 +27,7 @@ function App() {
         </p>
         <p> {null}, {false}, {undefined}, {true}
         </p>
-         import { count, length } from "./number";
+         
           <p> And the result is {count * length} </p>
         <a
           className="App-link"
