@@ -4,8 +4,8 @@ import Item from '../Item/Item';
 
 const ItemList = ({ allItems }) => (<ul>
     	{allItems.map(item => (
-    		<li> <Item value = {item.value} /> 
-    		</li> ))}
-    	
+    		<li key={item.value}> 
+    			<Item value = {item.value} /> 
+    		</li> ))}	
     </ul>);
 export default ItemList;
