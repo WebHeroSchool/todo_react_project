@@ -2,6 +2,7 @@ import React from 'react';
 import ItemList from '../ItemList/ItemList';
 import Footer from '../Footer/footer';
 import InputItem from '../InputItem/InputItem';
+import './App.css';
 
 const todoItem = 'Create new app'
 const App = () => {
@@ -18,8 +19,8 @@ const App = () => {
 	];
 
 	return (
-  <div> 
-  	<h1> ToDO List </h1> 
+  <div className = "wrap"> 
+  	<h1 className= "fonts"> ToDO List </h1> 
   	<InputItem/>
   	<ItemList allItems={allItems}/>
   	<Footer count={3}/>
