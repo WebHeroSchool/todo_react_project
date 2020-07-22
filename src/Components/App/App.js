@@ -4,12 +4,26 @@ import Footer from '../Footer/footer';
 import InputItem from '../InputItem/InputItem';
 
 const todoItem = 'Create new app'
-const App = () => (
-  <div> <h1> ToDO List </h1> 
+const App = () => {
+	const allItems = [
+		{
+			value: 'Create new app'
+		},
+		{
+			value: 'To write props'
+		},
+		{
+			value: 'To finish all tasks'
+		}
+	];
+
+	return (
+  <div> 
+  	<h1> ToDO List </h1> 
   	<InputItem/>
-  	<ItemList todoItem={todoItem}/>
+  	<ItemList allItems={allItems}/>
   	<Footer count={3}/>
-  </div>
-);
+  </div> )
+};
 
 export default App;
