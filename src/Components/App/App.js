@@ -4,7 +4,7 @@ import Footer from '../Footer/footer';
 import InputItem from '../InputItem/InputItem';
 import './App.css';
 
-const todoItem = 'Create new app'
+const todoItem = 'Create new app';
 const App = () => {
 	const allItems = [
 		{
@@ -19,12 +19,12 @@ const App = () => {
 	];
 
 	return (
-  <div className = "wrap"> 
-  	<h1 className= "fonts"> ToDO List </h1> 
-  	<InputItem/>
-  	<ItemList allItems={allItems}/>
-  	<Footer count={3}/>
-  </div> )
+		<div className = "wrap"> 
+	  		<h1 className= "fonts"> ToDO List </h1> 
+	  		<InputItem/>
+	  		<ItemList allItems = {allItems} />
+			<Footer count={3}/>
+  		</div> );
 };
 
 export default App;
