@@ -20,11 +20,11 @@ const App = () => {
 
 	return (
 		<div className = "wrap"> 
-	  		<h1 className= "fonts"> ToDO List </h1> 
-	  		<InputItem/>
-	  		<ItemList allItems = {allItems} />
+			<h1 className= "fonts"> ToDO List </h1> 
+			<InputItem/>
+			<ItemList allItems = {allItems} />
 			<Footer count={3}/>
-  		</div> );
+		</div> );
 };
 
 export default App;
