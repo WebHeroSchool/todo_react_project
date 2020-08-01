@@ -1,0 +1,9 @@
+.wrap {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+
+.fonts {
+  font-family: Helvetica, Arial, sans-serif;
+}
